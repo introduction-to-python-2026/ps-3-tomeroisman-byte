@@ -1,4 +1,4 @@
-direction = input("which direction would you like to go(right/left)")
+direction = "right"
 my_list = [0,1,0,0]
 def move(my_list, direction):
   index = my_list.index(1)
