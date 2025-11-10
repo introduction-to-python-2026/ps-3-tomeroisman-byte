@@ -1,7 +1,6 @@
-def app_pi(n_terms):
-  pi_est = 0
+def app_pi(n_term):
+  sigma = []
   for n in range(n_terms):
-    term = (-1) ** n / (2 * n +1 )
-    pi_est = pi_est + term  
-  pi_est = pi_est * 4
-  return app_pi
+    sigma.append(((-1) ** n)/( 2* n + 1))
+  pi = 4* sum(sigma)
+  return pi
