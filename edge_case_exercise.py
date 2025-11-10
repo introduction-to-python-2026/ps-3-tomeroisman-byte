@@ -6,13 +6,10 @@ def move(my_list, direction):
     if index < len(my_list) -1:
       my_list.remove(1)
       my_list.insert(index + 1,1)
-    else:
-      print("you are already at the end of the screen")
   elif direction == "left":
     if index > 0:
       my_list.remove(1)
       my_list.insert(index - 1,1)
-    else:
       print("the pig is already at the end of the screen")
   return my_list
 my_list = move(my_list,direction)
