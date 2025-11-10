@@ -4,5 +4,4 @@ def app_pi(n_terms):
     term = (-1) ** n / (2 * n +1 )
     pi_est = pi_est + term  
     pi_est = pi_est * 4
-    result = app_pi(10)
-    return result
+    return app_pi
